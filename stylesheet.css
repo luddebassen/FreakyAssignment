@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+
+}
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.navbar a:hover {
+    background-color: rgb(162, 162, 162);
+}
+
+@Media screen and (max-width: 600px){
+    .navbar a {
+        display: block;
+        font-size: 15px;
+        padding: 15px;
+        border-bottom: 1px solid white;
+    }
+}
+
+.main {
+    color: black;
+    padding: 25px 50px 25px 50px;
+
+}
+
+.rad:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bredKolonne {
+    width: 65%;
+    float: left;
+}
+
+.smalKolonne {
+    width: 35%;
+    float: left;
+}
+
+@Media screen and (max-width: 1000px){
+    .bredKolonne {
+        width: 100%;
+        text-align: center;
+    }
+    .smalKolonne {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        margin: auto;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border:1px solid black;
+}
+
+h1 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 32px;
+}
+.vehicle {
+    color: darkseagreen;
+    font-size: 32px;
+}
+
+.feature {
+    color: darkred;
+    font-size: 32px;
+}
+
+.ramme {
+    border: 1px solid black;
+    width: 90%;
+    text-transform: uppercase;
+    line-height: 120%;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+@Media screen and (min-width: 1350px){
+    .ramme {
+        width: 65%;
+    }
+}
+
+address {
+    font-size: 22px;
+}
+
+
