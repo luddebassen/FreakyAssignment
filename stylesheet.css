@@ -116,6 +116,14 @@ h2 {
     font-size: 22px;
     padding-top: 5px;
 }
+.ramme2 {
+    border: 1px solid black;
+    width: 90%;
+    line-height: 120%;
+    font-size: 22px;
+    padding-top: 5px;
+}
+}
 
 @Media screen and (min-width: 1350px){
     .ramme {
