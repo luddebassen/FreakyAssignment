@@ -51,7 +51,10 @@ body {
     width: 65%;
     float: left;
 }
-
+.bredKolonne2 {
+    width: 65%;
+    float:left;
+}
 .smalKolonne {
     width: 35%;
     float: left;
@@ -59,6 +62,10 @@ body {
 
 @Media screen and (max-width: 1000px){
     .bredKolonne {
+        width: 100%;
+        text-align: center;
+    }
+    .bredKolonne2 {
         width: 100%;
         text-align: center;
     }
@@ -120,4 +127,9 @@ address {
     font-size: 22px;
 }
 
+@Media screen and (max-width: 550px) {
+    .bredKolonne2 {
+        text-align: left;
+    }
+}
 
